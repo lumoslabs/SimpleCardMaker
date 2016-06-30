@@ -1,0 +1,68 @@
+.cardsContainer
+{
+    zoom: 0.85;
+    width: 100%;
+    overflow: scroll;
+    -webkit-print-color-adjust: exact; 
+}
+
+.image
+{ 
+   position: relative;
+   float: left;
+}
+
+.floatingText
+{ 
+   position: absolute; 
+   top: 5%; 
+   width: 100%; 
+}
+
+.type0Title
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.type1Title
+{
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+}
+
+.type2Title
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+h1
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    font-size: 190%;
+}
+
+h2
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    font-size: 130%;
+}
+
+h3
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    font-size: 110%;
+}
