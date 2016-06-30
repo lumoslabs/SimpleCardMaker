@@ -22,8 +22,7 @@ var getCardHTML = function( titleStyle, titleText, cardText, heading )
     return htmlBlock;
 };
 
-//build the cards once the window loads
-window.onload = function()
+var renderCardHTML = function()
 {
     var cardHTML = "";  
     
@@ -50,4 +49,15 @@ window.onload = function()
     }
     
     document.getElementById("cards").innerHTML = cardHTML;
+};
+
+//build the cards once the window loads
+window.onload = function()
+{
+    if ( document.loadAsync )
+    {
+        return;
+    }
+    
+    renderCardHTML();
 };

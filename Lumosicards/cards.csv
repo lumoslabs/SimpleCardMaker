@@ -1,0 +1,25 @@
+General Games,Train of Thought,Memory Matrix,Pet Detective,Disillusion,Ebb & Flow,Highway Hazards
+Score multiplier,Same color trains spawn in a row,take away incorrect tiles,Give extra gas,take away incorrect answers,Get time back when you mess up,Speed returns faster when slowed
+Give/take time,//technically infeasible? Pause at junctions if incorrect; toot their horn right before an incorrect junction,reveal correct tiles,Can pick up more gas on the road?,Timer slower; freezes,Keep combo multiplier when you mess up,Ignore certain obstacles (divide into specific cards for obstacles)
+Freeze time,Trains pop out closer/more spread out,one/multiple supercharged tiles that count more,Bonus goes down slower; freezes; starts higher,Freebies;,Special leaves that are right if you do either green/yellow,Fewer obstacles (divide into specific cards for obstacles)
+,Trains drive at a slower/faster speed,Redo when you mess up,Make some/all houses accept multiple/any pet,,Special leaves that give you more combo points,Clearer signs
+,Click trains to speed it up,Count a mistake as a correct tile,Boost bonus,,Only need 3 combo points to move up a multiplier (instead of 4),Signs appear longer / earlier on
+,Remove a train,Get a third try before going down a level,Add another trial,,Rewards for speed (extra mini multiplier or cash prize)?,Cars don't slow you as much
+,//Turn xroad into automatic,Reveal column or row,Reveal where to go first/next,,More time,Tree jumps on the road
+,**Reverse train,increase/decrease level,Reveal optimal ending location,,Pause time,Plow through x number of obstacles
+,**Drag a train to different track,Increase reveal time,Revers animals visually (cat goes to dogs house dog goes to cats house),,Slow down time,Shorter or longer course
+,**Rewind time,Reveal correct again at some fixed point,,,1 freebie messup,Star power - faster & invincible for a period of time
+,Autocomplete current trains as successful,Switch all correct and wrong tiles,,,Align point and move for x time,
+,Pause spawning,Add a mine square so all around it gets revealed so you might lose,,,Boost score multiplier,
+,Increase level/decrease,Free-ish trial (turn whole board into a face; replay the same board again),,,Red leave - points backwards,
+,Link 2 trains of same color together,Turn whole game into mine sweeper,,,Reversetron = orange is point/green is move,
+,**Tap train to send it to correct location automatically,Extra trials,,,Show swipe direction,
+,Change 1 train to wild card - any station it goes to will be correct,Make all blocks contiguous (simplify shape or trial),,,add/remove time,
+,If incorrect endpoint - send it back to the start,,,,Add distractors,
+,,,,,Hide prompt at botom,
+,,,,,Take away feedback / score / hud / pause button,
+,,,,,Speed up everything,
+,,,,,Leaves spin periodically - orange only,
+,,,,,Green leaves jiggle periodically,
+,,,,,Freeze water for x seconds,
+,,,,,(distractor) Dust storm so you cant see anything,
