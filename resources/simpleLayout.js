@@ -10,7 +10,7 @@ var getCardHTML = function( titleStyle, titleText, cardText, heading )
     [
         '',
         '<div class="image">',
-        '    <img src="cardBacking.png" alt="" />',
+        '    <img src="resources/cardBacking.png" alt="" />',
         '    <div class="floatingText">',
         '        <h1 class="' + titleStyle + '">' + titleText + '</h1>',
         '        <' + heading + '>' + cardText + '</' + heading + '>',
