@@ -1,48 +1,27 @@
 /*global document*/
 
-//
-var getTypeACards = function()
+var getLumosicards = function()
 {
-    var typeACards =
+    var types =
     [
-        "this",
-        "is",
-        "a",
-        "test",
-        "card"
+        { title: "Card 1",      count: 3,  text: "This card will be added 3 times. Look, HTML!<br/><br/>I did it." },
+        { title: "Card 2",    count: 4,  text: "This card will be added 4 times." },
+        { title: "Card 3",    count: 5,  text: "<b>5 times</b> holy crapola." }
     ];
-    
-    var cardIndex;
-    for ( cardIndex = 0; cardIndex < typeACards.length; cardIndex++ )
-    {
-        typeACards[ cardIndex ] = "Appending prefixes: " + typeACards[ cardIndex ];
-    }
-    
-    return typeACards;
-};
-
-var getTypeBCards = function()
-{
-    var typeBTypes =
-    [
-        { title: "DUPED CARD",      count: 3,  text: "This card will be added 3 times. Look, HTML!<br/><br/>I did it." },
-        { title: "DUPED CARD 2",    count: 4,  text: "This card will be added 4 times." },
-        { title: "DUPED CARD 3",    count: 5,  text: "<b>5 times</b> holy crapola." }
-    ];
-    var typeBCards = [];
+    var cards = [];
 
     var typeIndex;
-    for ( typeIndex = 0; typeIndex < typeBTypes.length; typeIndex++ )
+    for ( typeIndex = 0; typeIndex < types.length; typeIndex++ )
     {
-        var type = typeBTypes[ typeIndex ];
+        var type = types[ typeIndex ];
         var number;
         for ( number = 0; number < type.count; number++ )
         {
-            typeBCards.push( '<div class="customClass">' + type.title + '</div><br/>' + type.text );
+            cards.push( '<div class="lumosicard">' + type.title + '</div><br/>' + type.text );
         }
     }
     
-    return typeBCards;
+    return cards;
 };
 
 //all you need to do in cardData.js is create a document.cardData array that has
@@ -53,28 +32,8 @@ var getTypeBCards = function()
 document.cardData =
 [
     {
-        title: "TYPE A",
-        cards: getTypeACards()
-    },
-    
-    {
-        title: "TYPE B",
-        heading: "h2",
-        cards: getTypeBCards()
-    },
-    
-    {
-        title: "TYPE C",
-        heading: "h3",
-        cards:
-        [
-            "Look",
-            "I",
-            "Made",
-            "Cards",
-            "Without",
-            "A",
-            "Function"
-        ]
+        title: "lumosity",
+        cards: getLumosicards(),
+        heading: "h2"
     }
 ];
