@@ -1,5 +1,14 @@
 /*global document*/
 
+//here's how you would load a CSV:
+// document.loadAsync = true;
+//
+// csvFileToCards( "Example/cards.csv", function( cardData )
+// {
+//     document.cardData = cardData;
+//     renderCardHTML();
+// });
+
 //
 var getTypeACards = function()
 {
