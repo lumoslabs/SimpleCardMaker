@@ -1,16 +1,23 @@
 /*global document*/
 /*global window*/
 
-var getCardHTML = function( titleStyle, titleText, cardText, heading )
+var getCardHTML = function( titleStyle, titleText, cardText, heading, backgroundImage )
 {
     titleText = titleText || "CARD";
     heading = heading || "h1";
+
+    var backgroundImageHtml = "";
+    if ( backgroundImage )
+    {
+        backgroundImageHtml = '    <div class="backgroundImage"><img src="' + backgroundImage +'" alt="" /></div>';
+    }
 
     var htmlBlock =
     [
         '',
         '<div class="image">',
         '    <img src="resources/cardBacking.png" alt="" />',
+        backgroundImageHtml,
         '    <div class="floatingText">',
         '        <h1 class="' + titleStyle + '">' + titleText + '</h1>',
         '        <' + heading + '>' + cardText + '</' + heading + '>',
@@ -42,7 +49,7 @@ var renderCardHTML = function()
             {
                 for ( cardIndex = 0; cardIndex < cardTypeData.cards.length; cardIndex++ )
                 {
-                    cardHTML += getCardHTML( "type" + cardTypeIndex + "Title", cardTypeData.title, cardTypeData.cards[ cardIndex ], cardTypeData.heading );
+                    cardHTML += getCardHTML( cardTypeData.titleStyle || ("type" + cardTypeIndex + "Title"), cardTypeData.title, cardTypeData.cards[ cardIndex ], cardTypeData.heading, cardTypeData.backgroundImage );
                 }
             }
         }

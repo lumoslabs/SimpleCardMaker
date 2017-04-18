@@ -1,0 +1,25 @@
+title,backgroundImage,text,titleStyle,heading
+Omnipresent,ValeCards/images/omnipresent.png,,type0Title,h3
+Enigmatic,ValeCards/images/enigmatic.png,,type0Title,h3
+Stalwart,ValeCards/images/stalwart.png,,type0Title,h3
+Mercurial,ValeCards/images/mercurial.png,,type0Title,h3
+Innervated,ValeCards/images/innervated.png,,type0Title,h3
+Viral,ValeCards/images/viral.png,,type0Title,h3
+Astral,ValeCards/images/astral.png,,type0Title,h3
+Energetic,ValeCards/images/energetic.png,,type0Title,h3
+Burly,ValeCards/images/burly.png,,type0Title,h3
+Spry,ValeCards/images/spry.png,,type0Title,h3
+Vigilant,ValeCards/images/vigilant.png,,type0Title,h3
+Perpetual,ValeCards/images/perpetual.png,,type0Title,h3
+Omnipresent,,Voices; Visions; Haunted,type1Title,h3
+Enigmatic,,Cursed; Geophagy,type1Title,h3
+Stalward,,Rage; Sun Allergy,type1Title,h3
+Mercurial,,Twitchy; Shaky,type1Title,h3
+Innervated,,Narcoleptic,type1Title,h3
+Viral,,Anemic; Cannibalistic,type1Title,h3
+Astral,,Nightmares; Headaches,type1Title,h3
+Energetic,,Unlucky; Geophagy,type1Title,h3
+Burly,,Arthritic,type1Title,h3
+Spry,,Ravenous,type1Title,h3
+Vigilant,,Seisures; Coma,type1Title,h3
+Perpetual,,Tumors; Deformity,type1Title,h3
