@@ -1,8 +1,9 @@
-#SimpleCardMaker
+# SimpleCardMaker
 
 Makes cards that you can print out and use for prototyping. Make your own cards by duplicating the "Example" folder and renaming it (let's say to MyCards). Then go into cards.html and change lines 7 and 10 to point to your folder. This is a shitty way of doing it that may be improved later.
 
-###Putting in manual JSON data
+### Putting in manual JSON data
+
 You can manually put in JSON data if you want, which is the easiest way to make cards. See Example/cardData.js as an example.
 
 You have an array of card category objects, and each card object can contain any number of cards. Card category objects can have the following:
@@ -16,13 +17,13 @@ You have an array of card category objects, and each card object can contain any
 
 You can have one card per category if you want unique versions of each card. If you want duplicates of any card, it's recommended that you use cardData.js to add the same card object multiple times (as you can see in the example).
 
-###Using CSVs
+### Using CSVs
 
 If you want to avoid messing with cardData.js, then using a CSV is a much easier way to add cards. Unfortunately if you do this, you cannot open cards.html on Chrome unless you change permissions, since the CSV file is loaded with XMLHttpRequest. Other browsers should work.
 
 There are two ways to load CSVs: simple or complex. For both, you'll only write a bit of code, which is commented out at the top of Example/cardData.js.
 
-####Simple
+#### Simple
 
 The following code should be in your cardData.js.
 
@@ -65,7 +66,7 @@ Is equivalent to this JSON:
         }
     ]
 
-####Complex
+#### Complex
 
 The following code should be in your cardData.js.
 
@@ -108,6 +109,7 @@ Is equivalent to this JSON:
 
 Note that anything omitted is simply not included in the JSON, and the "text" key is changed to a "cards" array with a single element. So you're technically creating one category per card.
 
-###Opening it
+### Opening it
+
 Just open cards.html in a browser. Print it, cut it out. Cards will be laid out in the order they were added to the JSON array or CSV.
 
